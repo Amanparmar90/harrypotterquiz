@@ -1,0 +1,30 @@
+#st {
+  display: inline-block;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  overflow: hidden; /* Ensures the hover effect is applied to the entire div */
+}
+
+#st button {
+  background-color: silver;
+  border: 5px solid rosybrown;
+  color: rgb(3, 3, 20);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%; /* Makes the button span the entire width of the div */
+  font-size: 16px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#st:hover button {
+  background-color: rosybrown;
+  color: white;
+}
+#startbtn{
+margin:left="500px;"}
+body{
+color:aliceblue;}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Hat Quiz</title>
+    <link rel="stylesheet" href="onestyle.css">
+   
+</head>
+<body style="background-color: rgb(3, 3, 20);">
+   
+     
+
+
+    <div id="intro">
+        <h1 style="text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: aliceblue;" >The Sorting Hat Quiz</h1>
+        <p style="text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: aliceblue;" id="yo">Hey folks, I am the sorting hat and today I will sort you into your hogwarts house.</p>
+       
+           <div id="st">
+           
+            <button id="startbtn" >START QUIZ</button></div>
+    </div>
+    <form id="form1">
+     <div id="one" class="q" style="display: none;">
+       <div id="o1"> <p>1.Which of these traits best describe you?</p></div>
+       <div id="brave"> <input type="radio" id="a1" name="a11" value="gryffindoor" required>
+        <label for="a1">A. Brave</label><br></div>
+        <div id="cunning"><input type="radio" id="b1" name="a11" value="slytherin" required>
+        <label for="b1">B. Cunning</label><br></div>
+       <div id="loyal"> <input type="radio" id="c1" name="a11" value="hufflepuff" required>
+        <label for="c1">C. Loyal</label><br></div>
+       <div id="clever"> <input type="radio" id="d1" name="a11" value="ravenclaw" required>
+        <label for="d1">D. Clever</label><br></div>
+    <div id="bt"><button type="button"  id="n1" class="nextBtn">Next</button></div>
+    </div>
+   
+   
+        <div id="two" class="q" style="display:none;">
+       <div id="o2"> <p>2.If you saw a sign on a door telling you not to enter – Danger, Danger! – what would you do?</p></div>
+       <div id="go"> <input type="radio" id="a2" name="a22" value="gryffindoor" required>
+        <label for="a2">A. Go in anyway! If they are warning people off, there is something awesome in there!</label><br></div>
+       <div id="laugh"> <input type="radio" id="b2" name="a22" value="slytherin" required>
+        <label for="b2">B. Laugh at the sign and go in. As if anything or anyone can tell you what to do!</label><br></div>
+        <div id="leave"><input type="radio" id="c2" name="a22" value="hufflepuff" required>
+        <label for="c2">C. Leave.Quickly.And do not look back.</label><br></div>
+       <div id="alone"> <input type="radio" id="d2" name="a22" value="ravenclaw" required>
+        <label for="d2">D. Leave it alone. There is probably a good reason for that warning sign.</label><br></div>
+        <div id="bt2"><button type="button"   id="n2" class="nextBtn">Next</button></div>
+        </div>
+
+        <div id="three" class="q" style="display:none;">
+         <div id="o3">   <p>3.What would your family say is your worst trait?</p></div>
+         <div id="reck">   <input type="radio" id="a3" name="a33" value="gryffindoor" required>
+            <label for="a3">A. Reckless – you don’t think before you act.</label><br></div>
+           <div id="worst"> <input type="radio" id="b3" name="a33" value="slytherin" required>
+            <label for="b3">B. Worst trait? Really? You have no bad traits.</label><br></div>
+          <div id="nice">  <input type="radio" id="c3" name="a33" value="hufflepuff" required>
+            <label for="c3">C. You're too nice for your own good.</label><br></div>
+          <div id="bit">  <input type="radio" id="d3" name="a33" value="ravenclaw" required>
+            <label for="d3">D. A bit of a know-it-all.</label><br></div>
+          <div id="bt1">  <button type="button" id="n3" class="nextBtn">Next</button></div>
+        </div>
+
+        <div id="four" class="q" style="display:none;">
+        <div id="o4"><p>4.If you could have any superpower, which would you have?</p></div>
+           <div id="super"> <input type="radio" id="a4" name="a44" value="gryffindoor" required>
+            <label for="a4">A. Super strength or invincibility: all the better for adventuring!</label><br></div>
+          <div id="mind">  <input type="radio" id="b4" name="a44" value="slytherin" required>
+            <label for="b4">B. Mind control: then everyone will do exactly what you say!</label><br></div>
+           <div id="in"> <input type="radio" id="c4" name="a44" value="hufflepuff" required>
+            <label for="c4">C. Invisibility.</label><br></div>
+           <div id="power"> <input type="radio" id="d4" name="a44" value="ravenclaw" required>
+            <label for="d4">D. The power of foresight: so you know what’s coming.</label><br></div>
+           <div id="bt3"> <button type="button" id= "n4" class="nextBtn">Next</button></div>
+        </div>
+       
+        <div id="five" class="q" style="display:none;">
+         <div id="o5"> <p>5.Your friend has a problem – they're being picked on! What do you do?</p></div>
+           <div id="rush"> <input type="radio" id="a5" name="a55" value="gryffindoor" required>
+            <label for="a5">A. Rush in without thinking and defend them!</label><br></div>
+           <div id="care"> <input type="radio" id="b5" name="a55" value="slytherin" required>
+            <label for="b5">B. Consider carefully…what do you get out of this?</label><br></div>
+           <div id="run"> <input type="radio" id="c5" name="a55" value="hufflepuff" required>
+            <label for="c5">C. Run and get a teacher – they'll be able to help more than you.</label><br></div>
+           <div id="quick"> <input type="radio" id="d5" name="a55" value="ravenclaw" required>
+            <label for="d5">D. Quickly formulate a brilliant plan to help them.</label><br></div>
+       <div id="bt4"> <button type="submit" id="n5">Submit</button></div>
+        </div>
+</form>
+<div id="res"><div id="result" style="display:none;">
+<h2>Your result</h2>
+<p id="result1"></p>
+
+</div></div>
+
+<script>
+   
+    const resultp= document.getElementById("result");
+    const result1p= document.getElementById("result1");
+    const form1p= document.getElementById("form1");
+    const introdiv=document.getElementById("intro");
+    const startbtn=document.getElementById("startbtn");
+    const g2=document.getElementById("g1");
+
+   
+   
+const q1 = document.querySelectorAll(".q");
+       
+        let currentQuestionIndex = 0;
+
+        function showQuestion(index) {
+    q1.forEach((q, idx) => {
+
+       
+        if (idx === index) {
+            q.style.display = "block";
+        }
+        else {
+            q.style.display = "none";
+        }
+    });
+
+    if (index === 0) {
+        q1[0].style.display = "block";
+    }
+}
+
+
+function showResult() {
+       
+        q1[q1.length - 1].style.display = "none";
+       
+        resultp.style.display = "block";
+    }
+
+   startbtn.addEventListener("click",function(){
+     introdiv.style.display="none";
+     showQuestion(currentQuestionIndex);});
+   
+   
+
+document.querySelectorAll(".nextBtn").forEach((btn) => {
+            btn.addEventListener("click", function () {
+                currentQuestionIndex++;
+                if (currentQuestionIndex < q1.length) {
+                    showQuestion(currentQuestionIndex);
+                }
+                if (currentQuestionIndex === q1.length - 1) {
+                    btn.textContent = "Submit";  
+                }
+                if (currentQuestionIndex === q1.length) {
+                    showResult();
+                }
+            });
+        });
+
+       
+form1p.addEventListener("submit",function(event){
+    event.preventDefault();
+
+    const answers=[
+    document.querySelector("input[name=a11]:checked").value,
+    document.querySelector("input[name=a22]:checked").value,
+    document.querySelector("input[name=a33]:checked").value,
+    document.querySelector("input[name=a44]:checked").value,
+    document.querySelector("input[name=a55]:checked").value];
+
+    const counts={};
+    answers.forEach(answers =>{
+        counts[answers]=(counts[answers]||0)+1;
+    });
+    let max=0;
+    house="";
+    for (const answers in counts){
+        if(counts[answers]>max){
+            max=counts[answers];
+            house=answers;
+        }
+    }
+
+    result1p.textContent=`Congratulations!! You belong to ${house} house`;
+    resultp.style.display="block";
+    form1p.reset();
+showResult();
+
+    });
+    q1.forEach((q) => {
+            q.style.display = "none";
+        });
+ </script>  
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
